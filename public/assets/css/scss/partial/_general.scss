@@ -1,0 +1,41 @@
+// Variables
+$container-bg: #fff;
+$font-size-base: 14px;
+$line-height-computed: 1.2;
+$lines-to-show: 2;
+
+@import "color";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+  color: $black-m;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+img {
+  vertical-align: text-bottom;
+}
+
+strong {
+  font-weight: bold;
+}
+
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  &:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+}

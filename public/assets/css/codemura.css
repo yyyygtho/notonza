@@ -1,0 +1,303 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  vertical-align: text-bottom;
+}
+
+strong {
+  font-weight: bold;
+}
+
+button {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  background: #fff;
+}
+
+/* wrapper */
+.wrapper {
+  width: 100%;
+  padding: 0 0 100px;
+}
+
+/* header */
+.header {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
+  position: fixed;
+}
+
+.globalHeader {
+  width: 900px;
+  margin: 0 auto;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.globalHeader__wrapper {
+  *zoom: 1;
+  width: 900px;
+  height: 70px;
+  margin: 0 auto;
+}
+.globalHeader__wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.globalHeader__logo {
+  font-size: 270%;
+  font-size: 2.7rem;
+  width: 164px;
+  height: 70px;
+  padding: 20px 0;
+  color: #aaa;
+  text-align: center;
+  vertical-align: middle;
+  box-sizing: border-box;
+  float: left;
+  font-family: Verdana, Geneva, sans-serif;
+}
+.globalHeader__mailAddress {
+  font-size: 120%;
+  font-size: 1.2rem;
+  height: 70px;
+  margin-left: 20px;
+  padding: 30px 0;
+  vertical-align: middle;
+  float: left;
+}
+
+/*globalMenu*/
+.globalMenu {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  float: right;
+}
+.globalMenu__button {
+  width: 80px;
+  padding: 20px 0;
+  text-align: center;
+  display: block;
+}
+.globalMenu__icon {
+  width: 26px;
+  height: 26px;
+  margin: 0 auto;
+}
+.globalMenu__text {
+  margin-top: 10px;
+}
+
+/* main */
+.main {
+  margin: 0 auto;
+  background-color: #fafafa;
+}
+.main__teamInfo {
+  padding: 200px 0;
+  text-align: center;
+}
+
+.teamInfo {
+  display: inline-block;
+}
+.teamInfo__logo {
+  width: 400px;
+  height: 53px;
+  background: url(../images/CODEMURA.png) no-repeat 0 0;
+  text-indent: -9999px;
+}
+
+/* contents */
+.contents {
+  *zoom: 1;
+  width: 100%;
+  height: 100%;
+}
+.contents:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.contents__inner {
+  *zoom: 1;
+  width: 900px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.contents__inner:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.contents__title {
+  font-size: 350%;
+  font-size: 3.5rem;
+  padding: 100px 0;
+  color: #ddd;
+  text-align: center;
+}
+
+/* members */
+/* action */
+.actionInfo__description {
+  font-size: 200%;
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* contact */
+.contactBox {
+  width: 450px;
+  float: left;
+}
+
+.infomations {
+  *zoom: 1;
+  width: 350px;
+  margin: 0 auto;
+  padding: 20px 0;
+  border-bottom: 1px solid #aaa;
+}
+.infomations:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.infomations__item {
+  font-size: 160%;
+  font-size: 1.6rem;
+  margin-left: 55px;
+  float: left;
+}
+.infomations__item--icon {
+  width: 76px;
+  text-align: center;
+  clear: both;
+}
+
+.snsList__item {
+  width: 80px;
+  float: left;
+  text-align: center;
+}
+.snsList__item:first-child {
+  margin-left: 50px;
+}
+
+.formTable {
+  margin-bottom: 15px;
+}
+.formTable__title {
+  width: 90px;
+  vertical-align: top;
+  text-align: left;
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+.formTable__input {
+  width: 350px;
+  height: 22px;
+  margin-bottom: 23px;
+  overflow: auto;
+  border: 1px solid #aaa;
+}
+.formTable__textarea {
+  width: 350px;
+  height: 100px;
+  resize: none;
+  border: 1px solid #aaa;
+}
+
+.buttonWrapper {
+  width: 440px;
+  text-align: right;
+}
+
+.formButton {
+  width: 100px;
+  height: 35px;
+  border: 1px solid #aaa;
+  background-color: #fff;
+}

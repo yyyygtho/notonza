@@ -1,0 +1,5 @@
+// font size
+@mixin fontSize($size) {
+  font-size: $size * 10%; // old IE
+  font-size: $size * 0.1rem; // modern browser
+}
